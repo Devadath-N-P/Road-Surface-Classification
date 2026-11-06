@@ -1,0 +1,15 @@
+Selected model: SVC_rbf_C1_cnn_plus_handcrafted
+Feature view: cnn_plus_handcrafted
+Validation accuracy: 81.39%
+Test accuracy: 74.33%
+Test macro-F1: 0.7425
+
+                  precision    recall  f1-score   support
+
+     Smooth Road     0.7037    0.7600    0.7308       100
+      Rough Road     0.7941    0.8100    0.8020       100
+Tiled/Paved Road     0.7333    0.6600    0.6947       100
+
+        accuracy                         0.7433       300
+       macro avg     0.7437    0.7433    0.7425       300
+    weighted avg     0.7437    0.7433    0.7425       300

@@ -1,0 +1,23 @@
+{
+  "model": "SVC_rbf_C1_cnn_plus_handcrafted",
+  "features": "cnn_plus_handcrafted",
+  "validation_accuracy": 0.8138888888888889,
+  "validation_macro_f1": 0.8142803711383975,
+  "test_accuracy": 0.7433333333333333,
+  "test_macro_f1": 0.742495423631432,
+  "previous_best_test_accuracy": 0.7033,
+  "change_vs_previous_best_percentage_points": 4.003333333333325,
+  "labels": [
+    "Smooth Road",
+    "Rough Road",
+    "Tiled/Paved Road"
+  ],
+  "cnn_architecture": "ResNet18 pretrained on ImageNet, frozen feature extractor",
+  "cnn_embedding_dimensions": 512,
+  "handcrafted_feature_count": 33,
+  "crop": "lower 50 percent of image",
+  "input_size": [
+    224,
+    224
+  ]
+}
